@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0
+}
+
+.mainCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+.pageDisplay {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 60%;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainIcon {
+    width: 200px;
+    height: 200px;
+}
+
+.pageInfo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.linksCont {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-wrap: wrap;
+}
