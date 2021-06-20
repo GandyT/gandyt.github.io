@@ -83,6 +83,7 @@ html, body {
     text-decoration: none;
     background-color: #25272a;
     transition: 0.3s all ease;
+    cursor: pointer;
 }
 
 .mainLink:hover {

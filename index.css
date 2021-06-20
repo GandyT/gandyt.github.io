@@ -89,6 +89,7 @@ html, body {
     background-color: #1c1e20;
     color: #bbb;
     transition: 0.6s all ease;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
