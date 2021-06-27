@@ -8,6 +8,11 @@ var projectData = {
         thumbnail: "resource/discord.png",
         description: "Chat AI Discord Bot",
         url: "https://github.com/GandyT/Learner"
+    },
+    "FeatherCord.js": {
+        thumbnail: "resource/discord.png",
+        description: "Lightweight Discord Javascript Library",
+        url: "https://github.com/GandyT/FeatherCord.js"
     }
 }
 
