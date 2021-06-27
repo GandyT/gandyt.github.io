@@ -1,17 +1,17 @@
 var projectData = {
     "GandyClient": {
         thumbnail: "resource/background.png",
-        description: "Minecraft 1.8.9 PvP Client",
+        description: "Minecraft 1.8.9 PvP Client (6/27/21)",
         url: "subPages/gandyclient/gandyclient.html"
     },
     "Learner": {
         thumbnail: "resource/discord.png",
-        description: "Chat AI Discord Bot",
+        description: "Chat AI Discord Bot (6/2020)",
         url: "https://github.com/GandyT/Learner"
     },
     "FeatherCord.js": {
         thumbnail: "resource/discord.png",
-        description: "Lightweight Discord Javascript Library",
+        description: "Lightweight Discord Javascript Library (6/2020)",
         url: "https://github.com/GandyT/FeatherCord.js"
     }
 }
