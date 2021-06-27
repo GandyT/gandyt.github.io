@@ -7,6 +7,7 @@ html, body {
     padding-top: 30px;
     background-color: #2A2D32;
     color: #fff;
+    perspective: 100%;
 }
 
 .mainCont {
@@ -29,13 +30,13 @@ html, body {
 
 .mainTitle {
     display: flex;
-    width: 300px;
-    height: 100%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     font-size: 60px;
     font-weight: bold;
     font-family: arial;
+    margin: 0;
 }
 
 .mainIcon {
@@ -43,7 +44,7 @@ html, body {
     height: 250px;
     background: #bbb;
     border-radius: 100%;
-    border: 5px solid black;
+    border: 5px solid rgb(56, 56, 56);
 }
 
 .pageInfo {
@@ -98,8 +99,70 @@ html, body {
     height: 500px;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 10%;
-    align-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+
+.projectTile {
+    width: 404px;
+    height: 220px;
+    border: 4px solid rgb(34, 34, 34);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.projectThumb {
+    width: 396px;
+    height: 180px;
+}
+
+.projectDesc {
+    transition: 0.3s all ease;
+    position: absolute;
+    opacity: 0;
+    font-family: arial;
+    width: 396px;
+    height: 180px;
+    background-color: #2A2D32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 100;
+    color: #fff;
+    text-decoration: none;
+}
+
+.projectDesc:hover {
+    opacity: 0.8;
+    transition: 0.6s all ease;
+    position: absolute;
+    font-family: arial;
+    cursor: pointer;
+}
+
+a:link {text-decoration: none}
+
+.projectTitle {
+    width: 100%;
+    height: 32px;
+    background-color: #202225;
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, arial;
+    transition: 0.3s all ease;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.projectTitle:hover {
+    color: #bbb;
+    transition: 0.6s all ease;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {

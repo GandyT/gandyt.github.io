@@ -1,4 +1,15 @@
-import { projectData } from "./resource/projects.js";
+var projectData = {
+    "GandyClient": {
+        thumbnail: "resource/background.png",
+        description: "Minecraft 1.8.9 PvP Client",
+        url: "subPages/gandyclient/gandyclient.html"
+    },
+    "Learner": {
+        thumbnail: "resource/discord.png",
+        description: "Chat AI Discord Bot",
+        url: "https://github.com/GandyT/Learner"
+    }
+}
 
 window.onload = () => {
     console.log(`####################################\nWELCOME TO GANDY.IO\n####################################`);
@@ -7,9 +18,10 @@ window.onload = () => {
     if (!projects) return console.log("Missing Projects Cont");
 
     for (let key of Object.keys(projectData)) {
-        projects.innerHTML += `<div class="projectTile">
-            <img src="${projectData[key].thumbnail} class="projectThumb">"
+        projects.innerHTML += `<a href="${projectData[key].url}" class="projectTile">
+            <div class="projectDesc">${projectData[key].description}</div>
+            <img src="${projectData[key].thumbnail}" class="projectThumb">
             <div class="projectTitle">${key}</div>
-        </div>`;
+        </a>`;
     }
 }
