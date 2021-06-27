@@ -96,7 +96,10 @@ html, body {
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-    font-family: arial;
+}
+
+.Roboto {
+    font-family: "Roboto", "sans-serif", "arial";
 }
 
 @media screen and (max-width: 600px) {
