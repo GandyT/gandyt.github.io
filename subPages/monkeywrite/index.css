@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.mainLink {
+    width: 100%;
+    display: flex;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #25272a;
+    font-family: arial;
+    text-decoration: none;
+    background-color: #fff;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.mainLink:hover {
+    background-color: #bbb;
+    transition: 0.6s all ease;
+}
+
+#trainTextInput {
+    width: 500px;
+    height: 40px;
+    font-size: 25px;
+    margin: 20px;
+    display: block;
+}
+#populationSizeInput {
+    width: 500px;
+    height: 40px;
+    font-size: 25px;
+    margin: 20px;
+    display: block;
+}
+#mutationRateInput {
+    width: 500px;
+    height: 40px;
+    font-size: 25px;
+    margin: 20px;
+    display: block;
+}
+
+#generateBtn {
+    height: 40px;
+    background: none;
+    margin: 20px;
+    transition: 0.3s all ease;
+    display: block;
+    width: 200px;
+    font-size: 25px;
+}
+
+#generateBtn:hover {
+    background: #bbb;
+    transition: 0.6s all ease;
+    cursor: pointer;
+}
+
+#stopBtn {
+    height: 40px;
+    background: none;
+    margin: 20px;
+    transition: 0.3s all ease;
+    display: block;
+    width: 200px;
+    font-size: 25px;
+}
+
+#stopBtn:hover {
+    background: #bbb;
+    transition: 0.6s all ease;
+    cursor: pointer;
+}
+
+#genStats {
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#trainResultDiv {
+    border: 2px solid black;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+    flex-wrap: wrap;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+p {
+    width: 100%;
+}
