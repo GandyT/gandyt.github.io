@@ -13,6 +13,11 @@ var projectData = {
         thumbnail: "resource/discord.png",
         description: "Lightweight Discord Javascript Library (6/2020)",
         url: "https://github.com/GandyT/FeatherCord.js"
+    },
+    "MonkeyWrite": {
+        thumbnail: "resource/background.png",
+        description: "Genetic Algorithm to teach monkeys how to write",
+        url: "subPages/monkeywrite/monkeywrite.html"
     }
 }
 
