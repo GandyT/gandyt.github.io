@@ -21,7 +21,7 @@ class Snake {
 
         let direction = Math.random();
 
-        if (direction < 0.25) {
+        if (direction < 0.5) {
             this.chain.push(
                 {
                     x: initX - 1,
@@ -36,7 +36,7 @@ class Snake {
                     y: initY
                 }
             )
-        } else if (direction < 0.5) {
+        } else {
             this.chain.push(
                 {
                     x: initX + 1,
@@ -49,36 +49,6 @@ class Snake {
                 {
                     x: initX + 3,
                     y: initY
-                }
-            )
-        } else if (direction < 0.75) {
-            this.chain.push(
-                {
-                    x: initX,
-                    y: initY - 1,
-                },
-                {
-                    x: initX,
-                    y: initY - 2
-                },
-                {
-                    x: initX,
-                    y: initY - 3
-                }
-            )
-        } else {
-            this.chain.push(
-                {
-                    x: initX,
-                    y: initY + 1
-                },
-                {
-                    x: initX,
-                    y: initY + 2
-                },
-                {
-                    x: initX,
-                    y: initY + 3
                 }
             )
         }
@@ -274,7 +244,7 @@ class Snake {
 
         let direction = Math.random();
 
-        if (direction < 0.25) {
+        if (direction < 0.5) {
             this.chain.push(
                 {
                     x: initX - 1,
@@ -289,7 +259,7 @@ class Snake {
                     y: initY
                 }
             )
-        } else if (direction < 0.5) {
+        } else {
             this.chain.push(
                 {
                     x: initX + 1,
@@ -302,36 +272,6 @@ class Snake {
                 {
                     x: initX + 3,
                     y: initY
-                }
-            )
-        } else if (direction < 0.75) {
-            this.chain.push(
-                {
-                    x: initX,
-                    y: initY - 1,
-                },
-                {
-                    x: initX,
-                    y: initY - 2
-                },
-                {
-                    x: initX,
-                    y: initY - 3
-                }
-            )
-        } else {
-            this.chain.push(
-                {
-                    x: initX,
-                    y: initY + 1
-                },
-                {
-                    x: initX,
-                    y: initY + 2
-                },
-                {
-                    x: initX,
-                    y: initY + 3
                 }
             )
         }
