@@ -22,7 +22,7 @@ var projectData = {
     "SnakeAI": {
         thumbnail: "resource/background.png",
         description: "Genetic Algorithm to teach neural networks how to play snake.",
-        url: "subPages/snakeai/index.html"
+        url: "subPages/snakeai/snakeai.html"
     }
 }
 
