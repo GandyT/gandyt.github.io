@@ -18,6 +18,11 @@ var projectData = {
         thumbnail: "resource/background.png",
         description: "Genetic Algorithm to teach monkeys how to write",
         url: "subPages/monkeywrite/monkeywrite.html"
+    },
+    "SnakeAI": {
+        thumbnail: "resource/background.png",
+        description: "Genetic Algorithm to teach neural networks how to play snake.",
+        url: "subPages/snakeai/index.html"
     }
 }
 
