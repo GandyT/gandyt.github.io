@@ -20,8 +20,8 @@ var screenHeight = canvas.height
 LOGGER.info(`GameScreen - w: ${screenWidth}, h: ${screenHeight}`);
 
 const GameRender = new Render(ctx, screenWidth, screenHeight);
-const popSize = 1500;
-const mutationRate = 0.1;
+const popSize = 1750;
+const mutationRate = 0.12;
 
 var singleSnake = false;
 
