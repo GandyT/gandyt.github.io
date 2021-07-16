@@ -2,7 +2,6 @@ import { Config } from "./misc/gameConfig.js"
 import Logger from "./misc/Logger.js"
 import Render from "./game/Render.js";
 import Population from "./Population.js";
-import saveAs from "../node_modules/file-saver/src/FileSaver.js";
 
 const LOGGER = new Logger("SnakeAI");
 LOGGER.info("Initializing Game")
