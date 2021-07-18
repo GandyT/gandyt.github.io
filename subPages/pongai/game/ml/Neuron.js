@@ -27,7 +27,7 @@ class Neuron {
             let sum = this.bias;
 
             for (let i in this.incoming.neurons) {
-                sum += (this.incoming.neurons[i].output * this.incoming.weights[i]) + this.incoming.neurons[i].bias;
+                sum += (this.incoming.neurons[i].output * this.incoming.weights[i]);
             }
 
             this.output = sum;
