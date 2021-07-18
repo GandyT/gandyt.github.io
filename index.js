@@ -23,6 +23,11 @@ var projectData = {
         thumbnail: "resource/background.png",
         description: "Genetic Algorithm to teach neural networks how to play snake.",
         url: "subPages/snakeai/snakeai.html"
+    },
+    "PongAI": {
+        thumbnail: "resource/background.png",
+        description: "Neural network perfected by genetic algorithm to play pong.",
+        url: "subPages/pongai/pongai.html"
     }
 }
 

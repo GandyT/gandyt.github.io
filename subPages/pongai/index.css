@@ -1,0 +1,13 @@
+html, body {
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+#gs {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    margin-bottom: 10%;
+    margin-top: -20px;
+}
