@@ -39,7 +39,7 @@ class Population {
         this.balls = [bestBall];
 
         const selectRandom = () => {
-            let random = Math.random * total;
+            let random = Math.random() * total;
 
             let running = 0;
 
