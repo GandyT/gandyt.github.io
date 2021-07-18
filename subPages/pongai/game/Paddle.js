@@ -89,7 +89,7 @@ class Paddle {
     }
 
     calcFitness() {
-        this.fitness = this.score ** 2;
+        this.fitness = this.score + 1;
     }
 
     copy() {
