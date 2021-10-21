@@ -59,3 +59,12 @@ html, body {
 	padding: 10px;
 	font-size: 20px;
 }
+
+#stats {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	font-size: 20px;
+}
